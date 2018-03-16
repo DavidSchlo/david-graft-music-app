@@ -27,7 +27,10 @@
 
 body {
   font: Tahoma, Geneva, sans-serif;
-  
+}
+
+HorizontalScroll {
+  top: 75px;
 }
 
 @keyframes App-logo-spin {
