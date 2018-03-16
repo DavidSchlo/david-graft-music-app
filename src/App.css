@@ -25,12 +25,40 @@
   text-align: center;
 }
 
+.content {
+  width: 400px;
+  display: inline;
+}
+
+.contentWrapper {
+  width:2000px;
+}
+
+.main {
+  position: static;
+  height: 90%;
+}
+
+.main-table {
+  position: relative;
+  top: 75px;
+  height: 90%;
+  width: 100%;
+  overflow: auto;
+}
+
 body {
   font: Tahoma, Geneva, sans-serif;
 }
 
-HorizontalScroll {
-  top: 75px;
+div {
+  white-space: nowrap;
+  overflow: auto;
+}
+
+table {
+  width:400px;
+  table-layout:fixed;
 }
 
 @keyframes App-logo-spin {
